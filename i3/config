@@ -153,3 +153,7 @@ bar {
 client.focused             #001870 #001870 #ffffff #001870
 client.unfocused           #000000 #000000 #ffffff #000000
 client.background          #ffffff
+
+for_window [class="^.*"] border pixel 0
+default_border pixel 0
+default_floating_border pixel 0
